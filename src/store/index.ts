@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+import { Todo } from "../models/todo";
 
 export type RootState = {
   todos: Todo[];
